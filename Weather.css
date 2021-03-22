@@ -1,0 +1,31 @@
+#body {
+  background: rgb(101, 169, 214);
+}
+#todaySkyPic {
+  border: solid gray 1px;
+}
+#cityName {
+  font-size: 4em;
+  text-align: center;
+}
+#fiveD {
+  font-size: 2em;
+  text-align: center;
+}
+#zero {
+  text-align: center;
+  width: 25%;
+  margin: auto;
+  border: blue solid 0.2em;
+}
+.weatherReading {
+  font-size: 1.2em;
+  background: #806bb1;
+  text-align: center;
+  border: #553573 solid 0.3em;
+}
+.rows {
+  border: solid blue 0.2em;
+  display: flex;
+  margin: 1em;
+}
