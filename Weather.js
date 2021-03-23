@@ -35,7 +35,7 @@ function timeConverter(UNIX_timestamp) {
   var year = a.getFullYear();
   var month = months[a.getMonth()];
   var date = a.getDate();
-  var hour = a.getHours();
+  var hour = a.getHours() - 5;
   var min = a.getMinutes().toFixed(0);
   var time = date + " " + month + " " + year + " " + hour + ":" + min + "0";
   return time;
@@ -46,7 +46,7 @@ function dayConvert(UNIX_timestamp) {
   var year = a.getFullYear();
   var month = months[a.getMonth()];
   var date = a.getDate();
-  var hour = a.getHours();
+  var hour = a.getHours() - 5;
   var min = a.getMinutes().toFixed(0);
   var time = date + " " + month + " " + year + " " + hour + ":" + min + "0";
   return date;
