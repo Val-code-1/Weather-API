@@ -16,7 +16,7 @@
   text-align: center;
   width: 25%;
   margin: auto;
-  border: #7800fb54 solid 0.2em;
+  border: #553573 solid 0.2em;
   color: white;
 }
 .weatherReading {
@@ -27,7 +27,8 @@
   color: white;
 }
 .rows {
-  border: solid #7800fb54 0.2em;
+  /* border: solid #7800fb54 0.2em; */
   display: flex;
   margin: 1em;
+  justify-content: center;
 }
