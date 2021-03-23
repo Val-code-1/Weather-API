@@ -16,16 +16,18 @@
   text-align: center;
   width: 25%;
   margin: auto;
-  border: blue solid 0.2em;
+  border: #7800fb54 solid 0.2em;
+  color: white;
 }
 .weatherReading {
   font-size: 1.2em;
   background: #806bb1;
   text-align: center;
   border: #553573 solid 0.3em;
+  color: white;
 }
 .rows {
-  border: solid blue 0.2em;
+  border: solid #7800fb54 0.2em;
   display: flex;
   margin: 1em;
 }
